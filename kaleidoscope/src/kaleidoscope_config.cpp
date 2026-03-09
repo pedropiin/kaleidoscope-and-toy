@@ -7,8 +7,8 @@
 #include <map>
 
 #include "parser.cpp"
-#include "codegen_visitor.hpp"
-#include "kaleidoscope_jit.hpp"
+#include "include/kaleidoscope/codegen_visitor.hpp"
+#include "include/kaleidoscope/kaleidoscope_jit.hpp"
 
 class KaleidoscopeConfig {
 	public:

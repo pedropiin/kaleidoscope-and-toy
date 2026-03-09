@@ -3,8 +3,8 @@
 #include <unordered_map>
 
 #include "lexer.cpp"
-#include "ast.hpp"
-#include "error.hpp"
+#include "include/kaleidoscope/ast.hpp"
+#include "include/kaleidoscope/error.hpp"
 
 class Parser {
 	public:

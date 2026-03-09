@@ -1,7 +1,7 @@
 #include "llvm/IR/Value.h"
 
-#include "error.hpp"
-#include "ast.hpp"
+#include "include/kaleidoscope/error.hpp"
+#include "include/kaleidoscope/ast.hpp"
 
 std::unique_ptr<ExprAST> log_error(const char *str) {
     fprintf(stderr, "Error: %s\n", str);

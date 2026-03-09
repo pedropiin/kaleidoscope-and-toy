@@ -13,15 +13,11 @@ add_executable(
     kaleidoscope 
     ./src/main.cpp 
     ./src/lexer.cpp 
-    ./src/error.hpp
     ./src/error.cpp
-    ./src/ast.hpp
     ./src/ast.cpp 
     ./src/parser.cpp
     ./src/kaleidoscope_config.cpp
-    ./src/codegen_visitor.hpp
     ./src/codegen_visitor.cpp
-    ./src/kaleidoscope_jit.hpp
 )
 
 # equivalent to 'llvm-config -cxxflags'

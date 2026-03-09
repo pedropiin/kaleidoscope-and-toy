@@ -1,5 +1,5 @@
-#include "codegen_visitor.hpp"
-#include "error.hpp"
+#include "include/kaleidoscope/codegen_visitor.hpp"
+#include "include/kaleidoscope/error.hpp"
 
 CodegenVisitor::CodegenVisitor(std::shared_ptr<llvm::orc::KaleidoscopeJIT> og_jit_ptr) {
 	context = std::make_unique<llvm::LLVMContext>();
